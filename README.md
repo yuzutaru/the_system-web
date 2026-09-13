@@ -12,16 +12,17 @@ Part of the [The System workspace](https://github.com/yuzutaru/the_system). Game
 ```
 the_system-web/
 ├── app/                    routes (thin; delegate to features)
-│   ├── page.tsx            landing + XP calculator
+│   ├── page.tsx            landing page
 │   ├── exercises/          exercise catalogue (from the API)
 │   ├── stats/              level-curve explorer
 │   ├── character/          class unlock explorer
 │   └── quests/
 ├── features/
-│   ├── workout/            XpCalculator, ExerciseBrowser
+│   ├── home/               landing sections (Hero, HowItWorks, …)
+│   ├── workout/            ExerciseBrowser
 │   ├── stats/              LevelCurveDemo
 │   └── character/          ClassDemo
-├── components/             shared UI (Nav, StatBar)
+├── components/             shared UI (Nav, StatBar, XpCalculator)
 └── lib/
     ├── domain/             pure TS rules (mirrors docs/domain.md) + tests
     └── api.ts              typed API client (zod-validated)

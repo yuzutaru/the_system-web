@@ -5,8 +5,9 @@ import { Nav } from "@/components/Nav";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: "TheSystem",
-  description: "Heavy RPG fitness — forge attributes through iron.",
+  title: "The System — Fitness Tracker",
+  description:
+    "A free, open-source fitness tracker for beginners. Find where to start, log workouts, track your progression, and analyze your gains.",
 };
 
 export default function RootLayout({
